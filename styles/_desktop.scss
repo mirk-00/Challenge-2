@@ -1,0 +1,56 @@
+/*
+1440 x 800 px
+margins 171 260 129 260
+card 920 x 500
+padding card 46 46 46 46
+button 146 x 48 
+*/ 
+
+@media (min-width : 1000px) {
+    body {
+        align-content: center;  
+        justify-content: center;  
+
+    }
+    .container {
+        flex-direction: row;
+        width: 63.89vw;
+        height: 62.5vh;
+        margin: 19vh 18.056vw 16.125vh 18.056vw;
+    }   
+    [class^=card] {
+        align-items: flex-start;
+        padding: 6.2% 5%;  /* i want paddings to be 9.2% 5% of the card how can i do that? */
+        justify-content: space-evenly;
+    }
+    .card-1 {
+        color: $brightorange;
+        background-color: $brightorange;
+        border-radius: 0.5rem 0rem 0rem 0.5rem;
+    }
+    .card-2 {
+        color: $darkcyan;
+        background-color: $darkcyan;
+    }
+    .card-3 {
+        color: $verydarkcyan;
+        background-color: $verydarkcyan;
+        border-radius: 0px 0.5rem 0.5rem 0rem;
+    }
+    .icon {
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 2.6em;
+    }
+    button {
+        width: 69%;  /* Calculated by hand, need a smarter way */
+        &:hover {
+            transition: 200ms;
+            border : 2px solid $white;
+            color: $white;
+            background-color: inherit;
+            cursor: pointer;
+        }
+    }
+}
