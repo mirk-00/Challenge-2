@@ -20,7 +20,7 @@ button 146 x 48
     }   
     [class^=card] {
         align-items: flex-start;
-        padding: 6.2% 5%;  /* i want paddings to be 9.2% 5% of the card how can i do that? */
+        padding: 4.2% 5%;  /* i want paddings to be 9.2% 5% of the card how can i do that? */
         justify-content: space-evenly;
     }
     .card-1 {
@@ -45,12 +45,9 @@ button 146 x 48
     }
     button {
         width: 69%;  /* Calculated by hand, need a smarter way */
-        &:hover {
-            transition: 200ms;
-            border : 2px solid $white;
-            color: $white;
-            background-color: inherit;
-            cursor: pointer;
-        }
+    }
+    p {
+        height: 33%;
+        margin-bottom: 45%;
     }
 }

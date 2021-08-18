@@ -46,6 +46,7 @@ h1 {
 p {
     color: $parwhite;
     line-height: 150%;
+    margin-top: -1rem;
 }
 button {
     width: 44.92%;
@@ -55,11 +56,11 @@ button {
     background-color: $white;
     font-family: inherit;
     color: inherit;
-    &:hover {
-        transition: 200ms;
-        border : 2px solid $white;
-        color: $white;
-        background-color: inherit;
-        cursor: pointer;
-    }
+&:hover {
+            transition: 200ms;
+            border : 2px solid $white;
+            color: $white;
+            background-color: inherit;
+            cursor: pointer;
+        }
 }

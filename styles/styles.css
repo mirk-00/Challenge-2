@@ -82,6 +82,7 @@ h1 {
 p {
   color: rgba(255, 255, 255, 0.7);
   line-height: 150%;
+  margin-top: -1rem;
 }
 
 button {
@@ -131,7 +132,7 @@ button 146 x 48
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    padding: 6.2% 5%;
+    padding: 4.2% 5%;
     /* i want paddings to be 9.2% 5% of the card how can i do that? */
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
@@ -161,13 +162,9 @@ button 146 x 48
     width: 69%;
     /* Calculated by hand, need a smarter way */
   }
-  button:hover {
-    -webkit-transition: 200ms;
-    transition: 200ms;
-    border: 2px solid #f2f2f2;
-    color: #f2f2f2;
-    background-color: inherit;
-    cursor: pointer;
+  p {
+    height: 33%;
+    margin-bottom: 45%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
