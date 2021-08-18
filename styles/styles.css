@@ -48,6 +48,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: auto;
   padding: 10.23% 14.46%;
 }
 
@@ -77,12 +78,13 @@ h1 {
   text-transform: uppercase;
   font-stretch: ultra-condensed;
   color: #f2f2f2;
+  margin-top: 10%;
 }
 
 p {
   color: rgba(255, 255, 255, 0.7);
   line-height: 150%;
-  margin-top: -1rem;
+  margin-bottom: 15%;
 }
 
 button {
@@ -93,6 +95,7 @@ button {
   background-color: #f2f2f2;
   font-family: inherit;
   color: inherit;
+  margin: 10% 0%;
 }
 
 button:hover {
@@ -161,6 +164,7 @@ button 146 x 48
   button {
     width: 69%;
     /* Calculated by hand, need a smarter way */
+    margin: auto;
   }
   p {
     height: 33%;

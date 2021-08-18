@@ -17,6 +17,7 @@ body {
 [class^=card] {
     display: flex;
     flex-direction: column;
+    height: auto;
     // object-fit: fill;       // how to apply border radius from parent?
     padding: 10.23% 14.46%;
 }
@@ -42,11 +43,12 @@ h1 {
     text-transform: uppercase;
     font-stretch: ultra-condensed;
     color: $white;
+    margin-top: 10%;
 }
 p {
     color: $parwhite;
     line-height: 150%;
-    margin-top: -1rem;
+    margin-bottom: 15%;
 }
 button {
     width: 44.92%;
@@ -56,6 +58,7 @@ button {
     background-color: $white;
     font-family: inherit;
     color: inherit;
+    margin: 10% 0%;
 &:hover {
             transition: 200ms;
             border : 2px solid $white;
